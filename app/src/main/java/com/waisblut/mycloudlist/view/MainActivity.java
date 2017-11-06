@@ -1,4 +1,4 @@
-package com.waisblut.mycloudlist;
+package com.waisblut.mycloudlist.view;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -16,6 +16,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.inputmethod.InputMethodManager;
+
+import com.waisblut.mycloudlist.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -64,7 +66,6 @@ public class MainActivity extends AppCompatActivity
         });
     }
     //endregion
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,7 +137,4 @@ public class MainActivity extends AppCompatActivity
         mDrawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
-
-
 }
